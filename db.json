@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": "1225",
+      "username": "hafsa",
+      "email": "hafsa@email.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "1ce7",
+      "username": "hanane",
+      "email": "hanane@email.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "f26d",
+      "username": "marwa",
+      "email": "marwa@email.com",
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "7b9a",
+      "username": "ahmed",
+      "email": "ahmed@email.com",
+      "password": "mypassword",
+      "role": "user"
+    },
+    {
+      "id": "5d3c",
+      "username": "fatima",
+      "email": "fatima@email.com",
+      "password": "password123",
+      "role": "admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Catégorie A"
+    },
+    {
+      "id": "2",
+      "name": "Catégorie B"
+    },
+    {
+      "id": "3",
+      "name": "Catégorie C"
+    },
+    {
+      "id": "4",
+      "name": "Catégorie D"
+    }
+  ],
+  "documents": [
+    {
+      "id": "1",
+      "title": "Document 1",
+      "document_type": "pdf",
+      "path": "/documents/doc1.pdf",
+      "creation_date": "2024-10-24T12:00:00Z",
+      "category_id": "1",
+      "user_id": "1225"
+    },
+    {
+      "id": "2",
+      "title": "Rapport Technique",
+      "document_type": "docx",
+      "path": "/documents/rapport.docx",
+      "creation_date": "2024-10-24T14:30:00Z",
+      "category_id": "2",
+      "user_id": "f26d"
+    },
+    {
+      "id": "3",
+      "title": "Guide Utilisateur",
+      "document_type": "pdf",
+      "path": "/documents/guide_utilisateur.pdf",
+      "creation_date": "2024-10-24T18:00:00Z",
+      "category_id": "1",
+      "user_id": "1ce7"
+    },
+    {
+      "id": "4",
+      "title": "Analyse des Données",
+      "document_type": "xlsx",
+      "path": "/documents/analyse_donnees.xlsx",
+      "creation_date": "2024-10-25T09:15:00Z",
+      "category_id": "3",
+      "user_id": "7b9a"
+    },
+    {
+      "id": "5",
+      "title": "Plan de Projet",
+      "document_type": "pdf",
+      "path": "/documents/plan_projet.pdf",
+      "creation_date": "2024-10-26T11:00:00Z",
+      "category_id": "2",
+      "user_id": "5d3c"
+    },
+    {
+      "id": "6",
+      "title": "Présentation Finale",
+      "document_type": "pptx",
+      "path": "/documents/presentation_finale.pptx",
+      "creation_date": "2024-10-27T15:30:00Z",
+      "category_id": "4",
+      "user_id": "1ce7"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "1",
+      "name": "Créer Document",
+      "description": "Autorise l'utilisateur à créer des documents"
+    },
+    {
+      "id": "2",
+      "name": "Supprimer Document",
+      "description": "Autorise l'utilisateur à supprimer des documents"
+    },
+    {
+      "id": "3",
+      "name": "Modifier Document",
+      "description": "Autorise l'utilisateur à modifier des documents"
+    },
+    {
+      "id": "4",
+      "name": "Consulter Document",
+      "description": "Autorise l'utilisateur à consulter des documents"
+    }
+  ]
+}
